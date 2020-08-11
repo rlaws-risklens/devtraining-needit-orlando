@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="chesborger" label="requestyp" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="HR" sequence="0" value="hr"/>
+                <element inactive_on_update="false" label="Facilitude" sequence="1" value="facilitude"/>
+                <element inactive_on_update="false" label="Eagle" sequence="2" value="eagle"/>
+                <element inactive_on_update="false" label="Chesborger" sequence="3" value="chesborger"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="mcborgar" label="WAT NEED!" mandatory="true" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element inactive_on_update="false" label="human" sequence="0" value="human"/>
+                <element inactive_on_update="false" label="hunan" sequence="1" value="hunan"/>
+                <element inactive_on_update="false" label="felicity" sequence="2" value="felicity"/>
+                <element inactive_on_update="false" label="felicitude" sequence="3" value="felicitude"/>
+                <element inactive_on_update="false" label="the eagles" sequence="4" value="the eagles"/>
+                <element inactive_on_update="false" label="beagle" sequence="5" value="beagle"/>
+                <element inactive_on_update="false" label="mcborgar" sequence="6" value="mcborgar"/>
+                <element inactive_on_update="false" label="and fry" sequence="7" value="and fry"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="whennneededdd" mandatory="true" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="requessifor" mandatory="true" max_length="32" name="u_reference_2" reference="sys_user" type="reference"/>
+    </element>
+</database>
